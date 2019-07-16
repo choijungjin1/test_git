@@ -5,11 +5,8 @@ const port = 3000
 //app.get('/', (req, res) => res.send('Hello World!'))
 
 //app.listen(port, () => console.log(`Example app listening on port ${port}!`))
-<<<<<<< HEAD
 app.use(express.static('public'))
-=======
-//app.use(express.static('views'))
->>>>>>> d586c3524f9a3d25b06a66808093bfd5bfe62f49
+
 
 const path = require('path');
 const router = express.Router();
